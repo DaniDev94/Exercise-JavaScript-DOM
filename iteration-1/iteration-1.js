@@ -1,7 +1,7 @@
 // 1.1------------------------------------------------------------------>
 const $$button = document.body.querySelector(".showme");
 console.log($$button);
-// 1.a2------------------------------------------------------------------>
+// 1.2------------------------------------------------------------------>
 const $$title = document.body.querySelector("#pillado");
 console.log($$title);
 // 1.3------------------------------------------------------------------>
@@ -13,17 +13,14 @@ console.log($$h4);
 // 1.5------------------------------------------------------------------>
 const $$span = document.body.querySelectorAll('[data-function = "testMe"]'); //Selecciona por atributo de la etiqueta y su valor.
 console.log($$span);
+// 1.5------------------------------------------------------------------>
 console.log($$span[2]);
-
-
-
-
 
 function init() {
   // 1.1------------------------------------------------------------------>
   const $$button = document.body.querySelector(".showme");
   console.log($$button);
-  // 1.a2------------------------------------------------------------------>
+  // 1.2------------------------------------------------------------------>
   const $$title = document.body.querySelector("#pillado");
   console.log($$title);
   // 1.3------------------------------------------------------------------>
@@ -35,6 +32,7 @@ function init() {
   // 1.5------------------------------------------------------------------>
   const $$span = document.body.querySelectorAll('[data-function = "testMe"]'); //Selecciona por atributo de la etiqueta y su valor.
   console.log($$span);
+  // 1.6------------------------------------------------------------------>
   console.log($$span[2]);
 }
 
